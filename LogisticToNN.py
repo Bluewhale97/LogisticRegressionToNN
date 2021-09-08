@@ -1,4 +1,4 @@
-```python
+
 import numpy as np
 import copy
 import matplotlib.pyplot as plt
@@ -338,4 +338,3 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations=2000, learning_rate=0
     plt.imshow(image)
     print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts a \"" + classes[int(np.squeeze(my_predicted_image)),].decode("utf-8") +  "\" picture.")
     
-  ```
